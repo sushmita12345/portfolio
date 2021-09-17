@@ -13,17 +13,13 @@ body {
   
 }
 
-* {
-  overflow: hidden;
-}
+
 
 
 
 /* @media only screen and (max-width: 620px) { */
   /* For mobile phones: */
-.container-top {
-  width: 100vw;
-}
+
 
 
 
@@ -113,6 +109,10 @@ body {
 
 .text {
   color: var(--primary-color);
+}
+
+.container {
+  overflow-wrap: break-word;
 }
 
 .container-center {
