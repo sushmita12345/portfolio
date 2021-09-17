@@ -51,8 +51,9 @@ body {
 .navigation {
   background-color: var(--primary-color);
   color: white;
-  padding: 1rem;
+  padding: 0.4rem;
   border-bottom-left-radius: 1rem;
+  
 }
 
 .navigation .nav-brand {
@@ -62,6 +63,7 @@ body {
 
 .navigation .nav-pills{
   text-align: right;
+
 }
 
 .navigation .link{
@@ -122,7 +124,7 @@ body {
 
 .footer {
   background-color: var(--primary-color);
-  padding: 2rem 1rem;
+  padding: 2rem 0rem;
   text-align: center;
   color: white;
   border-top-right-radius: 1rem;
