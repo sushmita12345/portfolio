@@ -155,6 +155,10 @@ body {
 
 .footer .footer-header {
   font-weight: bold;
+  
+}
+
+.main .footer-header {
   font-size: 18px;
 }
 
