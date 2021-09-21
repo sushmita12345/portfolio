@@ -93,6 +93,7 @@ body {
   text-align: center;
   padding-top: 1rem;
   color: var(--gray-color);
+  font-size: 30px;
 }
 
 .hero .hero-heading .heading-inverted {
@@ -114,6 +115,11 @@ body {
 
 .text {
   color: var(--primary-color);
+  font-size: 20px;
+}
+
+.wrapper {
+  font-size: 15px;
 }
 
 .container {
