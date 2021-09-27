@@ -44,8 +44,6 @@ body {
 
 
 
-/* @media only screen and (max-width: 620px) { */
-  /* For mobile phones: */
 
 
 
@@ -127,9 +125,23 @@ body {
 }
 
 .container-center {
-  max-width: 400px;
+  max-width: 45vw;
   margin: auto;
 }
+ .card{
+  overflow-wrap: break-word;
+ }
+
+ .card-top {
+  width: 45vw;
+  height: 55vh;
+  margin: auto;
+  padding-left: 2rem;
+  border-style: outset;
+  border-radius: 1rem;
+  margin-top: 2rem;
+ }
+
 
 .main {
   width: 50%;
