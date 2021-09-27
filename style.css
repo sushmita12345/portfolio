@@ -16,20 +16,34 @@ body {
 .navigation {
   background-color: var(--primary-color);
   color: white;
-  padding: 0.4rem;
+  padding: 1rem;
   border-bottom-left-radius: 1rem;
-  
+  display: inline-flex;
+  width: 96.4vw; 
 }
 
 .navigation .nav-brand {
   font-weight: bold;
   font-size: 18px;
   padding: 1rem;
+  flex-grow: 1;
+  flex-basis: 0; 
 }
 
 .navigation .nav-pills{
-  text-align: right;
+  /* text-align: right; */
+  padding: 0;
 
+}
+
+.space{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+.space:hover{
+  color: var(--primary-color);
+  text-decoration: underline;
 }
 
 .navigation .link{
@@ -52,7 +66,8 @@ p{
 }
 .link {
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  /* padding: 0.5rem 1rem; */
+  padding: 0.8rem;
   
 }
 
@@ -60,6 +75,7 @@ p{
   border-radius: 0.5rem;
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
+  padding: 0.5rem;
 }
 
 .list-non-bullet {
@@ -68,7 +84,7 @@ p{
 
 .list-item-inline {
   display:inline;
-  padding: 0rem 0.5rem;
+  /* padding: 0rem 3rem; */
 }
 
 
@@ -132,7 +148,7 @@ p{
 
  .card-top {
   width: 45vw;
-  height: 55vh;
+  height: 45vh;
   margin: auto;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -146,7 +162,7 @@ p{
 
  .card-blog {
   width: 45vw;
-  height: 55vh;
+  height: 50vh;
   margin: auto;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -225,7 +241,7 @@ p{
 
   .link {
     text-decoration: none;
-    padding: 0.5rem 1rem;
+     /*padding: 0.5rem 1rem; */
     font-size: 12px;;
   }
   
