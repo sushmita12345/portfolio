@@ -24,6 +24,7 @@ body {
 .navigation .nav-brand {
   font-weight: bold;
   font-size: 18px;
+  padding: 1rem;
 }
 
 .navigation .nav-pills{
@@ -39,23 +40,20 @@ body {
   font-weight: bold;
 }
 
-
-
-
-
-
-
-
-
+p{
+  margin-bottom: 2rem;
+}
 
 .primary-link {
   background-color: var(--primary-color);
   border-radius: 0.5rem;
   color: white;
+  
 }
 .link {
   text-decoration: none;
   padding: 0.5rem 1rem;
+  
 }
 
 .secondary-link {
@@ -137,9 +135,30 @@ body {
   height: 55vh;
   margin: auto;
   padding-left: 2rem;
+  padding-right: 2rem;
   border-style: outset;
   border-radius: 1rem;
-  margin-top: 2rem;
+  margin-bottom: 3rem;
+ }
+ .blog {
+  overflow-wrap: break-word;
+ }
+
+ .card-blog {
+  width: 45vw;
+  height: 55vh;
+  margin: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-style: outset;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+ }
+.card-top:hover {
+  background-color: #F9FAFB;
+ }
+ .card-blog:hover {
+  background-color: #F9FAFB;
  }
 
 
@@ -259,6 +278,25 @@ body {
     font-size: 15px;
     color: var(--primary-color);
   }
+
+  .card-top {
+    width: 65vw;
+    height: 55vh;
+    margin-right: 3rem;
+    font-size: 0.9rem;
+    
+   }
+
+   #font-size {
+     font-size: 0.7rem;
+   }
+
+  .card-blog {
+    width: 65vw;
+    height: 65vh;
+    margin-right: 3rem;
+    font-size: 0.9rem;
+   }
 
 
 }
