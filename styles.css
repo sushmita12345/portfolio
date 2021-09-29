@@ -74,9 +74,12 @@ body {
   float: left;
   width: 30%;
   padding: 0 20px;
-  
-  
-  
+ 
+}
+.column-1 {
+  float: left;
+  width: 40%;
+  padding: 0 4vw;
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
@@ -111,6 +114,9 @@ body {
   padding-top: 20px;
   
 }
+
+
+
 .head:hover {
   background-color: #00BFA6;
   border-radius: 1rem;
@@ -212,6 +218,10 @@ body {
     width: 90%;
     padding: 0 20px;
   }
+  .column-1 {
+    width: 90%;
+  
+  }
   .card {
     height: 45vh;
   }
@@ -226,6 +236,7 @@ body {
     font-size: 1.2rem;
     
   }
+  
 
   .link-1 {
     text-decoration: none;
@@ -260,7 +271,7 @@ body {
 
   .head {
     height: 12vh;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     
   }
 
